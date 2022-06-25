@@ -1,0 +1,393 @@
+body{
+
+background-color: rgb(0, 50, 103);
+
+}
+
+
+
+.govde_alt{
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    top:500px;
+    left: 200px;
+    border:1px solid red;
+    background-color: red;
+}
+.govde_ust{
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top:400px;
+    left: 200px;
+    border:1px solid red;
+    background-color: red;
+    border-radius: 60px 100px 0px 0px;
+}
+.kaput{
+    width: 100px;
+    height: 75px;
+    position: absolute;
+    top:475px;
+    left: 700px;
+    border:1px solid red;
+    background-color: red;
+    border-radius: 0px 40px 0px 0px;
+}
+.bagaj{
+    width: 50px;
+    height: 75px;
+    position: absolute;
+    top:475px;
+    left: 150px;
+    border:1px solid red;
+    background-color: red;
+    border-radius: 20px 0px 0px 0px;
+}
+.tekerlek_on{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:510px;
+    left: 245px;
+    border:10px solid black;
+    background-color: gray;
+    border-radius: 100%;
+}
+.tekerlek_arka{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:510px;
+    left: 600px;
+    border:10px solid black;
+    background-color: gray;
+    border-radius: 100%;
+}
+
+.spoıler_on{
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    top:515px;
+    left: 135px;
+    border:1px solid rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+    border-radius: 40px 40px 40px 40px;
+}
+
+.spoıler_arka{
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    top:515px;
+    left: 715px;
+    border:1px solid rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+    border-radius: 40px 40px 40px 40px;
+}
+
+.cam_on{
+    width: 470px;
+    height: 75px;
+    position: absolute;
+    top:403px;
+    left: 210px;
+    border:1px solid red;
+    background-color: rgb(253, 253, 253);
+    border-radius: 80px 100px 0px 0px;
+    z-index: 1;
+}
+
+.far_on{
+    width: 55px;
+    height: 30px;
+    position: absolute;
+    top:480px;
+    left: 750px;
+    border:1px solid rgb(255, 0, 0);
+    background-color: rgb(237, 237, 237);
+    border-radius: 40px 40px 40px 40px;
+    z-index: 1;
+}
+
+.far_arka{
+    width: 55px;
+    height: 30px;
+    position: absolute;
+    top:480px;
+    left: 130px;
+    border:1px solid rgb(255, 0, 0);
+    background-color: rgb(255, 138, 138);
+    border-radius: 40px 40px 40px 40px;
+    z-index: 1;
+
+}
+
+.spoıler {
+    width: 35px;
+    height: 10px;
+    position: absolute;
+    top: 460px;
+    left: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+    transform: rotate(45deg);
+    border-top-left-radius: 10px;
+}
+.spoiler-kanat{
+    width: 50px;
+    height: 10px;
+    position: absolute;
+    top: 450px;
+    left: 140px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+
+.ucgen{
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    top:380px;
+    left: 300px;
+    border:1px solid rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border-radius: 01px 900px 10px 10px;
+    z-index: 1;
+}
+
+.tekerlek_on{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:510px;
+    left: 245px;
+    border:10px solid black;
+    background-color: gray;
+    border-radius: 100%;
+}
+
+.jant_arka{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top:510px;
+    left: 245px;
+    border:10px solid rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+}
+
+.jant{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 520px;
+    left: 254px;
+    background-color: gray;
+    border-radius: 100%;
+    z-index: 5;
+    overflow: hidden;
+}
+
+.jant-line1{
+    width: 25px;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    border-radius: 100% 0 100% 0;
+    background-color: black;
+    z-index: 6;
+}
+.jant-line2{    
+    width: 25px;
+    height: 50px;
+    position: absolute;
+    top: 12px;
+    left: 38px;
+    border-radius: 100% 0 100% 0;
+    background-color: black;
+    z-index: 6;
+    transform: rotate(90deg);
+}
+.jant-line3{
+    
+width: 25px;
+height: 50px;  position: absolute;
+top: -17px;
+left: 24px;
+border-radius: 100% 0 100% 0;
+background-color: black;
+z-index: 6;
+transform: rotate(14deg);
+
+}
+.jant-line4{
+    width: 25px;
+    height: 50px;
+    position: absolute;
+    top: -16px;
+    left: -10px;
+    border-radius: 100% 0 100% 0;
+    background-color: black;
+    z-index: 6;
+    transform: rotate(292deg);
+}
+
+.jant-line5{
+    width: 25px;
+    height: 50px;
+    position: absolute;
+    top: 12px;
+    left: 38px;
+    border-radius: 100% 0 100% 0;
+    background-color: black;
+    z-index: 6;
+    transform: rotate(90deg);
+}
+
+
+.jant2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 520px;
+    left: 610px;
+    background-color: gray;
+    border-radius: 100%;
+    z-index: 5;
+    overflow: hidden;
+}
+.hizliGit{
+    animation: hizli 0.5s infinite ;
+}
+.yavasGit{
+    animation: yavas 5s infinite ;
+}
+.golge{
+position: absolute;
+bottom: 120px;
+left: 250px;
+width: 400px;
+height: 50px;
+background-color: black;
+border-radius: 90%;
+opacity: 0.3;
+}
+
+.sinyal_on {
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    top: 496px;
+    left: 755px;
+    border: 1px solid rgb(239 255 0);
+    background-color: rgb(255 247 0);
+    border-radius: 87px 99px 81px 76px;
+    z-index: 7;
+}
+
+.sinyal_arka {
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    top: 496px;
+    left: 158px;
+    border: 1px solid rgb(239 255 0);
+    background-color: rgb(255 247 0);
+    border-radius: 87px 99px 81px 76px;
+    z-index: 7;
+   
+}
+
+
+.selektor1 {
+    width: 364px;
+    height: 7px;
+    position: absolute;
+    top: 344px;
+    left: 854px;
+    /* border: 1px solid rgb(0 0 0); */
+    /* background-color: rgb(255 255 255); */
+    border-radius: 87px 99px 81px 76px;
+    z-index: 7;
+    transform: rotate(350deg);
+    box-shadow: 15px 104px 57px 11px white;
+}
+
+.selektor2 {
+    width: 151px;
+    height: 7px;
+    position: absolute;
+    top: 478px;
+    left: 1108px;
+    /* border: 1px solid rgb(0 0 0); */
+    /* background-color: rgb(255 255 255); */
+    border-radius: 87px 99px 81px 76px;
+    z-index: 7;
+    transform: rotate(91deg);
+    box-shadow: 13px -124px 92px 23px white;
+}
+
+.selektor3 {
+    width: 360px;
+    height: 7px;
+    position: absolute;
+    top: 613px;
+    left: 856px;
+    /* border: 1px solid rgb(0 0 0); */
+    /* background-color: rgb(255 255 255); */
+    border-radius: 87px 99px 81px 76px;
+    z-index: 7;
+    transform: rotate(5deg);
+    box-shadow: 20px -89px 69px 11px white;
+}
+.gizle{
+
+
+display: none;
+}
+
+
+
+.far_on.acik{
+
+    box-shadow: 20px 0px 20px 5px white;
+}
+.far_arka.acik{
+
+    box-shadow: -20px 0px 20px 5px rgb(255 0 0);
+}
+
+
+.sinyal_on.acik {
+    box-shadow: 20px 0px 20px 12px rgb(225 255 0);
+}
+.sinyal_arka.acik {
+    box-shadow: -20px 0px 20px 16px rgb(255 255 0);
+}
+
+
+
+
+
+
+
+@keyframes hizli {
+    0%   {transform: rotate(0deg);}
+  100% { transform: rotate(3600deg);}
+  }
+
+  
+  @keyframes yavas {
+    0%   {transform: rotate(0deg);}
+
+  100% { transform: rotate(-3600deg);}
+
+  }

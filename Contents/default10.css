@@ -1,0 +1,25 @@
+.no    {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #FF0000;
+    color: yellow;
+    background-color: pink;
+    padding-top:15px;
+    padding-left:25px;
+    position: absolute;
+    top:200px;
+    left:200px;
+}
+
+.yes    {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #FF0000;
+    color: yellow;
+    background-color: pink;
+    padding-top:15px;
+    padding-left:25px;
+    position: absolute;
+    top:200px;
+    left:600px;
+}
